@@ -2,17 +2,16 @@ import React from "react"
 import heroImage from "../img/E720hero.png"
 import entertainment720 from '../img/E720Logo.png';
 
+
 function Landing() {
     return (
         <div className="landingPageContainer">
-            <hero className="heroImage">
-            <h1>MultiMedia Platform</h1>
-            <h2>"Because we are willing to go around the world twice for you"</h2>
+            <h1 class="heroh1">MultiMedia Platform</h1>
+            <h2 class="heroh2">"Because we are willing to go around the world twice for you"</h2>
             <div className="heroContainerImage">
-                <img className="navImage" src={entertainment720} style={heroLogo} />
+                <img className="navImage" src={entertainment720} />
                 </div>
-                <button>Click Me</button>
-            </hero>
+                <button className="landingButton">Click Me</button>
         </div>
 
     )
@@ -25,8 +24,5 @@ const imageLanding = {
     maxwidth: "520px"
 }
 
-const heroLogo = {
-    display: "flex",
-    flexDirection: "row",
-    justifyContent: "end"
-}
+
+
