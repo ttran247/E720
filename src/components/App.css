@@ -1,0 +1,58 @@
+
+html,body,form {
+    margin: 0px;
+    padding-bottom: 25px;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+}
+ul, p {
+    margin: 0;
+}
+a{
+  text-decoration: none;
+}
+.navWeb {
+  display: none;
+}
+
+@media (min-width: 750px) {
+.navMobile {
+  display: none;
+}
+.webContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 50px;
+}
+
+.navWeb {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;  
+  justify-content: flex-end;
+  
+}
+.webLink{
+  padding: 0px 10px;
+  color: black;
+  font-size: 20px;
+}
+  .heroImage{
+    height: 100vh;
+    width: 100vh;
+    background-image: url('../img/E720hero.png');
+    background-position: center; 
+  }   
+
+
+}
+
+
+
+
+
+
