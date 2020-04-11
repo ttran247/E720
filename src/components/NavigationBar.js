@@ -1,21 +1,34 @@
 import React from "react"
 import entertainment720 from '../img/E720Logo.png';
-import MenuIcon from '@material-ui/icons/Menu';
 
+function openMobileMenu() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+}
 function NavigationBar() {
     return (
         <>
             <header>
-                <menu></menu>
                 <section class="mobileContainer">
-                <div className="navContainterMobile">
+
+                    <a href="javascript:void(0);" class="icon" onclick="openMobileMenu()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                    <div className="navContainterMobile">
+                        <div id="myLinks">
+
                     <ul className="navMobile">
-                        <li><a href="default.asp">Our Mission</a></li>
-                        <li><a href="contact.asp">Contact</a></li>
-                        <li><a href="news.asp">Service</a></li>
-                        <li><a href="about.asp">Career</a></li>
+                            <li className="mobLink"><a href="default.asp">Our Mission</a></li>
+                            <li className="mobLink"><a href="contact.asp">Contact</a></li>
+                            <li className="mobLink"><a href="news.asp">Service</a></li>
+                            <li className="mobLink"><a href="about.asp">Career</a></li>
                     </ul>
-                    </div>
+                        </div>
+                        </div>
                     </section>
             </header>
             
