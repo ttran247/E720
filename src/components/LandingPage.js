@@ -11,7 +11,7 @@ function Landing() {
             <div className="heroContainerImage">
                 <img className="navImage" src={entertainment720} />
                 </div>
-                <button className="landingButton">Click Me</button>
+                <button className="landingButton">Get Started</button>
         </div>
 
     )

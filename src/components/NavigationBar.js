@@ -1,13 +1,14 @@
 import React from "react"
-import styled from 'styled-components';
 import entertainment720 from '../img/E720Logo.png';
+import MenuIcon from '@material-ui/icons/Menu';
 
 function NavigationBar() {
     return (
         <>
             <header>
-                <section>
-                <div className='navContainterMobile'>
+                <menu></menu>
+                <section class="mobileContainer">
+                <div className="navContainterMobile">
                     <ul className="navMobile">
                         <li><a href="default.asp">Our Mission</a></li>
                         <li><a href="contact.asp">Contact</a></li>
@@ -41,5 +42,6 @@ export default NavigationBar;
 
 const imgLogo = {
     maxWidth: "12%",
+   
    
 }
