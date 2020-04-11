@@ -14,7 +14,6 @@ function NavigationBar() {
         <>
             <header>
                 <section class="mobileContainer">
-
                     <a href="javascript:void(0);" class="icon" onclick="openMobileMenu()">
                         <i class="fa fa-bars"></i>
                     </a>
