@@ -14,10 +14,11 @@ import Checkbox from '@material-ui/core/Checkbox'
     };
 
      return (
-        <>
-             <h1 className="contact">Contact</h1>
+         <>
+             <div className="contact-container">
+             <h1 className="contact">Contact Us</h1>
              <h2 className="contact">Reach out to us about business opportunities, media inquiries, or just to talk. Looking for job opportunities? Head over to Careers.</h2>
-        <hr/>
+             </div>
              <h1 className="Formh1"> Let's Get In Touch </h1>
         <form className="form" noValidate autoComplete="off">
 
@@ -48,9 +49,6 @@ import Checkbox from '@material-ui/core/Checkbox'
                      <InputLabel htmlFor="component-outlined">Phone</InputLabel>
                      <OutlinedInput id="component-outlined" value={name} onChange={handleChange} label="Name" />
                  </FormControl>
-             <form autoComplete="off">
-                 <TextField id="outlined-basic" label="Message" variant="outlined" />
-             </form>
              </form>
              <h4 className="formh4">By clicking submit, you consent to us sending you the communications requested above in accordance with our privacy policy
                 <Checkbox
@@ -59,6 +57,10 @@ import Checkbox from '@material-ui/core/Checkbox'
                      inputProps={{ 'aria-label': 'secondary checkbox' }}
                  /> 
              </h4>
+             <div className="subContainer">
+             <button className="SubmitButton">Submit</button>
+             </div>
+
              </>
     );
 }

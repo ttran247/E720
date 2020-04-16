@@ -13,7 +13,6 @@ h2{
 h1, h2, h3, h4, h5, h6 {
   text-align: center;
   font-family: 'Nunito Sans', sans-serif;
-  padding-bottom: 25px;
 }
 ul, p {
     margin: 0;
@@ -167,10 +166,9 @@ h2{
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding-bottom: 0px;
-  margin-left: 25px;
   background-color: white;
   box-shadow: 0 2px 15px 0 rgba(0,0,0,0.1);
-  
+  padding-left: 25px;
 }
 
 .navWeb {
@@ -262,8 +260,12 @@ text-align: center;
   justify-content: space-evenly;
   padding-bottom: 100px;
 }
+.contact-container{
+  background-color: black;
+}
 .contact{
   text-align: center;
+  color: white;
 }
 .form {
   display: flex;
@@ -272,7 +274,7 @@ text-align: center;
   margin-left: 400px;  
 }
 .MuiInputBase-root{
-  width: 75%;
+  width: 70%;
 }
 
 .Formh1{
@@ -282,9 +284,29 @@ text-align: center;
 .footertext{
   color: #FFFFFF;
 }
+.subContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 490px;
+  padding-bottom: 100px;
+}
+.SubmitButton{
+background: #FFFFFF;
+border: 1px solid #969090;
+box-shadow: 0 2px 5px 0 rgba(0,0,0,0.50);
+border-radius: 6px;
+font-size: 24px;
+color: #000000;
+letter-spacing: 0;
+text-align: center;
+font-family: 'Nunito Sans', sans-serif;
+}
 .text-container2{
   display: grid;
+  grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
+  
   margin: 0px;
   padding: 0px;
 }
