@@ -14,10 +14,13 @@ const useStyles = makeStyles((theme) => ({
  function ImageAvatars() {
     const classes = useStyles();
 
-    return (
+     return (
+         <div className="avatarContainer">
+             
         <div className={classes.root}>
             <Avatar alt="Remy Sharp" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSnEqD_CAkEPxaHjHu5t-ydhR3f_V1rqySl4nOIsIi_zcQ1Y2qv&usqp=CAU" />
             <Avatar alt="Travis Howard" src="https://bookingagentinfo.com/wp-content/uploads/2019/03/Ben-Schwartz-Contact-Information.jpeg" />
+        </div>
         </div>
     );
  }

@@ -85,7 +85,11 @@ text-align: center;
 .missionInfo{
   text-align: center;
 }
-
+.avatarContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 .service{
   text-align: center;
 }
@@ -104,6 +108,8 @@ text-align: center;
   flex-direction: column;
   margin-left: 35px;
   margin-right: 35px;
+  margin-bottom: 100px;
+
 }
 .footerContainer{
   background-color: #000000;
@@ -169,6 +175,11 @@ font-size: 32px;
 color: #000000;
 letter-spacing: 0;
 text-align: center;
+}
+.avatarContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 #cardContainer{
   display: flex;
