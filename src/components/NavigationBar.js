@@ -35,7 +35,7 @@ function NavigationBar() {
 
             <section>
                 <header class="webContainer">
-                    <img class="navImage" src={entertainment720} style={imgLogo}/>
+                    <img class="navImage" src={entertainment720} />
                     <div className='navContainterWeb'>
                         <ul className='navWeb'>
                             <li><a href="default.asp" className="webLink">Our Mission</a></li>
@@ -52,8 +52,4 @@ function NavigationBar() {
 
 export default NavigationBar;
 
-const imgLogo = {
-    maxWidth: "12%",
-   
-   
-}
+
