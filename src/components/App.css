@@ -1,13 +1,14 @@
 html,body,form {
     margin: 0px;
-    padding-bottom: 25px;
-    margin-bottom: 25px;
-    
+   
+    /* margin-left: 20px;
+    margin-right: 20px; */
 }
 
 
 h1, h2, h3, h4, h5, h6 {
-    margin-top: 0;
+    margin-top: 50px;
+    margin-bottom: 40px;
 }
 ul, p {
     margin: 0;
@@ -101,7 +102,15 @@ text-align: center;
 .form {
   display: flex;
   flex-direction: column;
+  margin-left: 35px;
+  margin-right: 35px;
 }
+.footerContainer{
+  background-color: #000000;
+   width: 100vw;
+  height: 20vh;
+}
+
 @media (min-width: 850px) {
 .icon{
   display: none;
@@ -173,7 +182,15 @@ text-align: center;
 .form {
   display: flex;
   flex-direction: column;
+  margin-left: 35px;
+  margin-right: 35px;
+  padding-bottom: 100px;
   
+}
+.footerContainer{
+  background-color: #000000;
+   width: 100vw;
+  height: 20vh;
 }
 }
 

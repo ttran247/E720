@@ -6,6 +6,7 @@ import Mission from './Mission'
 import ImgMediaCard from './MediaCard'
 import ComposedTextField from './ComposedTextField'
 import ImageAvatars from './ImageAvatars'
+import Footer from './Footer'
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       <hr/>
       <ImgMediaCard />
       <hr/>
-      <ComposedTextField/>
+      <ComposedTextField />
+      <Footer/>
 
 
        </>
