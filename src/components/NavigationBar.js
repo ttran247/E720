@@ -19,7 +19,6 @@ function NavigationBar() {
                     </a>
                     <div className="navContainterMobile">
                         <div id="myLinks">
-
                     <ul className="navMobile">
                             <li className="mobLink"><a href="default.asp">Our Mission</a></li>
                             <li className="mobLink"><a href="contact.asp">Contact</a></li>
@@ -33,9 +32,9 @@ function NavigationBar() {
             
 
 
-            <section>
-                <header class="webContainer">
-                    <img class="navImage" src={entertainment720} />
+            <section className="webPos">
+                <header className="webContainer">
+                    <img className="navImage" src={entertainment720} />
                     <div className='navContainterWeb'>
                         <ul className='navWeb'>
                             <li><a href="default.asp" className="webLink">Our Mission</a></li>

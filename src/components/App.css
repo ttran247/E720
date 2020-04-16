@@ -4,11 +4,16 @@ html,body,form {
     /* margin-left: 20px;
     margin-right: 20px; */
 }
-
-
+h1{
+  font-size: 40px;
+}
+h2{
+  font-size: 20px;
+}
 h1, h2, h3, h4, h5, h6 {
   text-align: center;
   font-family: 'Nunito Sans', sans-serif;
+  padding-bottom: 25px;
 }
 ul, p {
     margin: 0;
@@ -18,7 +23,6 @@ a{
   text-decoration: none;
   font-family: 'Nunito Sans', sans-serif;
 }
-
 
 
 
@@ -56,14 +60,15 @@ a{
 .heroh1{
   padding-top: 50px;
   color: white;
+  
 }
 .heroh2{
   color: white;
 }
 
 .landingPageContainer{
-    background-image: url('../img/E720hero.png');
-     background-repeat: no-repeat;
+    background-image: url('https://images.unsplash.com/39/lIZrwvbeRuuzqOoWJUEn_Photoaday_CSD%20(1%20of%201)-5.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+   background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
     height: 100vh;
@@ -73,7 +78,7 @@ a{
 .landingButton{
 background: #FFFFFF;
 border: 1px solid #969090;
-box-shadow: 0 2px 7px 0 rgba(0,0,0,0.50);
+box-shadow: 0 2px 5px 0 rgba(0,0,0,0.50);
 border-radius: 6px;
 font-size: 24px;
 color: #000000;
@@ -98,17 +103,14 @@ padding-top: 600px;
 .image-container{
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  justify-content: space-evenly;
-  padding-bottom: 150px;
+  justify-content: space-around;
+  padding-bottom: 50px;
 }
-
 .ceo{
-  width: 15vw;
-  height: 25vh;
+  width: 30vw;
+  height: 30vh;
   border-radius: 50%;
 }
-
 
 .service{
   text-align: center;
@@ -119,8 +121,8 @@ height: 900px;
 #cardContainer{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  justify-content: space-evenly;
+ justify-content: center;
+ padding-left: 110px;
 }
 
 .contact{
@@ -141,6 +143,12 @@ height: 900px;
 }
 
 @media (min-width: 850px) {
+h1{
+  font-size: 60px;
+}
+h2{
+  font-size: 22px;
+}
 .icon{
   display: none;
 }
@@ -149,16 +157,20 @@ height: 900px;
 }
 
 .navImage{
-  width: 5vh;
+  width: 5vw;
   height: 5vh;
 }
+
 .webContainer {
+  position: fixed;
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-right: 30px;
-  margin-left: 30px;
-  padding-top: 20px;
   padding-bottom: 0px;
+  margin-left: 25px;
+  background-color: white;
+  box-shadow: 0 2px 15px 0 rgba(0,0,0,0.1);
+  
 }
 
 .navWeb {
@@ -167,6 +179,8 @@ height: 900px;
   flex-direction: row;
   justify-content: space-around;  
   justify-content: flex-end;
+   margin-right: 30px;
+
   
 }
 .webLink{
@@ -175,19 +189,30 @@ height: 900px;
   font-size: 20px;
 }
   .landingPageContainer{
-    background-image: url('../img/E720hero.png');
+    background-image: url('https://images.unsplash.com/39/lIZrwvbeRuuzqOoWJUEn_Photoaday_CSD%20(1%20of%201)-5.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
     background-repeat: no-repeat;
-    background-size: 100%;   
+    background-size: cover;   
     height: 1100px;
     width: 2000px 
+    
   }   
 
 .heroh1{
-  padding-top: 50px;
+  padding-top: 300px;
   color: white;
+  font-size: 60px;
+color: #FFFFFF;
+letter-spacing: 0;
+text-align: center;
+text-shadow: 0 2px 18px rgba(0,0,0,0.50);
 }
 .heroh2{
   color: white;
+font-size: 22px;
+color: #FFFFFF;
+letter-spacing: 0;
+text-align: center;
+text-shadow: 0 2px 21px rgba(0,0,0,0.50);
 }
 .heroContainerImage{
   display: flex;
@@ -203,17 +228,39 @@ font-size: 32px;
 color: #000000;
 letter-spacing: 0;
 text-align: center;
+
+}
+
+.button-container{
+  padding-top: 0px;
 }
 .avatarContainer{
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
+.image-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-evenly;
+  padding-bottom: 150px;
+}
+
+.ceo{
+ 
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+
 #cardContainer{
   display: flex;
   flex-direction: row;
   justify-items: center;
   justify-content: space-evenly;
+  padding-bottom: 100px;
 }
 .contact{
   text-align: center;
@@ -221,15 +268,31 @@ text-align: center;
 .form {
   display: flex;
   flex-direction: column;
-  margin-left: 35px;
-  margin-right: 35px;
   padding-bottom: 100px;
-  
+  margin-left: 400px;  
+}
+.MuiInputBase-root{
+  width: 75%;
+}
+
+.Formh1{
+  padding-top: 25px;
+}
+
+.footertext{
+  color: #FFFFFF;
+}
+.text-container2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0px;
+  padding: 0px;
 }
 .footerContainer{
   background-color: #000000;
    width: 100vw;
-  height: 20vh;
+  height: 30vh;
+  background-image: url('/src/img/E720Logo.png');
 }
 }
 

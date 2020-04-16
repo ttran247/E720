@@ -1,6 +1,5 @@
 import React from "react"
-import heroImage from "../img/E720hero.png"
-import entertainment720 from '../img/E720Logo.png';
+
 
 
 function Landing() {
@@ -18,10 +17,7 @@ function Landing() {
 
 export default Landing
 
-const imageLanding = {
-    maxHeight: "100vh",
-    maxwidth: "520px"
-}
+
 
 
 
