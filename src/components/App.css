@@ -1,6 +1,7 @@
 html,body,form {
     margin: 0px;
     padding-bottom: 25px;
+    margin-bottom: 25px;
     
 }
 
@@ -87,7 +88,20 @@ text-align: center;
 .service{
   text-align: center;
 }
+#cardContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-evenly;
+}
 
+.contact{
+  text-align: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
 @media (min-width: 850px) {
 .icon{
   display: none;
@@ -152,6 +166,14 @@ text-align: center;
   flex-direction: row;
   justify-items: center;
   justify-content: space-evenly;
+}
+.contact{
+  text-align: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  
 }
 }
 
