@@ -124,8 +124,7 @@ padding-top: 600px;
 #cardContainer{
   display: flex;
   flex-direction: column;
- justify-content: center;
- padding-left: 110px;
+ justify-items: center;
 }
 .contact-container{
   background-color: black;
@@ -145,6 +144,22 @@ padding-top: 600px;
 }
 .footertext{
   color: #FFFFFF;
+}
+.text-form{
+  padding-top: 20px;
+}
+.textBox{
+  border: 2px solid #e4e4e4;
+}
+.textBox:focus{
+  outline: none !important;
+  border-color:#4B5B9E;
+}
+#text-area {
+  height: 300px;
+  width: 98.5%;
+  border-radius: 5px;
+  color: black;
 }
 .subContainer{
   display: flex;
@@ -350,6 +365,7 @@ text-align: center;
   height: 300px;
   width: 69.5%;
   border-radius: 5px;
+  border-color: 2px solid #e4e4e4;
 }
 .subContainer{
   display: flex;

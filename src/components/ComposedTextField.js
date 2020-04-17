@@ -21,36 +21,35 @@ import Checkbox from '@material-ui/core/Checkbox'
              </div>
              <h1 className="Formh1"> Let's Get In Touch </h1>
         <form className="form" noValidate autoComplete="off">
-
             <FormControl variant="outlined">
                 <InputLabel htmlFor="component-outlined">First Name</InputLabel>
-                <OutlinedInput id="component-outlined" value={name} onChange={handleChange} label="Name" />
+                <OutlinedInput id="component-outlined"  label="Name" />
                  </FormControl>
                  <br/>
                  <FormControl variant="outlined">
                      <InputLabel htmlFor="component-outlined">Last Name</InputLabel>
-                     <OutlinedInput id="component-outlined" value={name} onChange={handleChange} label="Name" />
+                     <OutlinedInput id="component-outlined"label="Name" />
                  </FormControl>
                  <br />
 
                  <FormControl variant="outlined">
                      <InputLabel htmlFor="component-outlined">Company</InputLabel>
-                     <OutlinedInput id="component-outlined" value={name} onChange={handleChange} label="Name" />
+                     <OutlinedInput id="component-outlined" label="Name" />
                  </FormControl>
                  <br />
 
                  <FormControl variant="outlined">
                      <InputLabel htmlFor="component-outlined">Email</InputLabel>
-                     <OutlinedInput id="component-outlined" value={name} onChange={handleChange} label="Name" />
+                     <OutlinedInput id="component-outlined" label="Name" />
                  </FormControl>
                  <br />
 
                  <FormControl variant="outlined">
                      <InputLabel htmlFor="component-outlined">Phone</InputLabel>
-                     <OutlinedInput id="component-outlined" value={name} onChange={handleChange} label="Name" />
+                     <OutlinedInput id="component-outlined"  label="Name" />
                  </FormControl>
              <form className="text-form">
-                 <textarea id="text-area">Message</textarea>
+                 <textarea className="textBox" id="text-area">Message</textarea>
              </form>
              </form>
              <h4 className="formh4">By clicking submit, you consent to us sending you the communications requested above in accordance with our privacy policy
