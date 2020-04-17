@@ -1,15 +1,14 @@
 import React from "react"
 import entertainment720 from '../img/E720Logo.png';
 
-function openMobileMenu() {
 
-}
 function NavigationBar() {
+  
     return (
         <>
             <header>
                 <section class="mobileContainer">
-                    <a href="javascript:void(0);" class="icon" onclick="openMobileMenu()">
+                    <a href="#" class="icon" onclick="openMobileMenu()">
                         <i class="fa fa-bars"></i>
                     </a>
                     <div className="navContainterMobile">
