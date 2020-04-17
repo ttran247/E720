@@ -33,7 +33,7 @@ function NavigationBar() {
 
 
             <section className="webPos">
-                <header className="webContainer">
+                <header id="webContainer">
                     <img className="navImage" src={entertainment720} />
                     <div className='navContainterWeb'>
                         <ul className='navWeb'>
