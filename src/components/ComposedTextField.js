@@ -49,6 +49,9 @@ import Checkbox from '@material-ui/core/Checkbox'
                      <InputLabel htmlFor="component-outlined">Phone</InputLabel>
                      <OutlinedInput id="component-outlined" value={name} onChange={handleChange} label="Name" />
                  </FormControl>
+             <form className="text-form">
+                 <textarea id="text-area">Message</textarea>
+             </form>
              </form>
              <h4 className="formh4">By clicking submit, you consent to us sending you the communications requested above in accordance with our privacy policy
                 <Checkbox
@@ -58,7 +61,8 @@ import Checkbox from '@material-ui/core/Checkbox'
                  /> 
              </h4>
              <div className="subContainer">
-             <button className="SubmitButton">Submit</button>
+                 <button className="SubmitButton">Submit</button>
+                 
              </div>
 
              </>

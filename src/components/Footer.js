@@ -18,7 +18,7 @@ function footer () {
                  <h4 className="footertext">Partners </h4>
                     <h4 className="footertext">Address: 602 Trumpball Street Pawnee, IN</h4> 
                 </div>
-                    <h4 className="footertext">CopyRight 2020</h4>
+                <h4 className="footertext">CopyRight <i class="far fa-copyright"></i> 2020 </h4>
                
      </div>
         </>
