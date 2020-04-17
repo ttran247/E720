@@ -15,6 +15,8 @@ function App() {
       <Mission />
       <hr/>
       <ImgMediaCard />
+      <br /> 
+
       <ComposedTextField />
       <Footer/>
 

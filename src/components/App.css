@@ -8,6 +8,7 @@ h1{
   font-size: 40px;
 }
 h2{
+  padding-top: 0px;
   font-size: 20px;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -124,7 +125,7 @@ padding-top: 600px;
 #cardContainer{
   display: flex;
   flex-direction: column;
- justify-items: center;
+  align-items: center;
 }
 .contact-container{
   background-color: black;
@@ -180,10 +181,8 @@ font-family: 'Nunito Sans', sans-serif;
 }
 .text-container2{
   display: grid;
-  grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
-  margin: 0px;
-  padding: 0px;
+  padding-right: 20px;
 }
 .footerContainer{
   background-color: #000000;
@@ -394,7 +393,6 @@ font-family: 'Nunito Sans', sans-serif;
 }
 .text-container2{
   display: grid;
-  grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
   margin: 0px;
   padding: 0px;

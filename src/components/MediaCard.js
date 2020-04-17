@@ -51,7 +51,7 @@ function ImgMediaCard() {
                 </CardActions>
             </Card>
 
-
+                <br />  <br />
             {/* Design & Build Card */}
 
             <Card className={classes.root}>
@@ -80,6 +80,7 @@ function ImgMediaCard() {
         </Button>
                 </CardActions>
             </Card>
+                <br />  <br />
 
 
             {/* Promote & Engage */}
