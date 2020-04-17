@@ -2,12 +2,7 @@ import React from "react"
 import entertainment720 from '../img/E720Logo.png';
 
 function openMobileMenu() {
-    var x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-        x.style.display = "none";
-    } else {
-        x.style.display = "block";
-    }
+
 }
 function NavigationBar() {
     return (
