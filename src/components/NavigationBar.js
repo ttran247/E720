@@ -1,29 +1,73 @@
 import React from "react"
 import entertainment720 from '../img/E720Logo.png';
+import Menu from '@material-ui/core/Menu';
+import MenuItem from '@material-ui/core/MenuItem';
+import MoreVertIcon from '@material-ui/icons/MoreVert';
+import MenuIcon from '@material-ui/icons/Menu';
+import Box from '@material-ui/core/Box';
+import { OverrideMaterialUICss } from "override-material-ui-css"
 
+
+const options = [
+    'Our Mission',
+    'Contact',
+    'Service',
+    'Career',
+
+];
+
+const ITEM_HEIGHT = 48;
 
 function NavigationBar() {
-  
+    const [anchorEl, setAnchorEl] = React.useState(null);
+    const open = Boolean(anchorEl);
+
+    const handleClick = (event) => {
+        setAnchorEl(event.currentTarget);
+    };
+
+    const handleClose = () => {
+        setAnchorEl(null);
+    };
+
     return (
         <>
-            <header>
-                <section class="mobileContainer">
-                    <a href="#" class="icon" onclick="openMobileMenu()">
-                        <i class="fa fa-bars"></i>
-                    </a>
-                    <div className="navContainterMobile">
-                        <div id="myLinks">
-                    <ul className="navMobile">
-                            <li className="mobLink"><a href="default.asp">Our Mission</a></li>
-                            <li className="mobLink"><a href="contact.asp">Contact</a></li>
-                            <li className="mobLink"><a href="news.asp">Service</a></li>
-                            <li className="mobLink"><a href="about.asp">Career</a></li>
-                    </ul>
-                        </div>
-                        </div>
-                    </section>
-            </header>
+            <OverrideMaterialUICss className="overide"> 
+                <Box display="flex" flexDirection="row-reverse" p={1} m={1} bgcolor="background.paper" classes={{ root: 'my-root-class' }}>
+
+                <MenuIcon
+                    display="flex" flexDirection="row-reverse"
+                    aria-label="more"
+                    aria-controls="long-menu"
+                    aria-haspopup="true"
+                    onClick={handleClick}
+                >
+                    <MoreVertIcon />
+                </MenuIcon>
             
+            <Menu
+                id="long-menu"
+                anchorEl={anchorEl}
+                keepMounted
+                open={open}
+                onClose={handleClose}
+                PaperProps={{
+                    style: {
+                        maxHeight: ITEM_HEIGHT * 4.5,
+                        width: '30ch',
+                    },
+                }}
+            >
+                {options.map((option) => (
+                    <MenuItem key={option} selected={option === 'Pyxis'} onClick={handleClose}>
+                        {option}
+                    </MenuItem>
+                ))}
+            </Menu>
+                </Box>
+
+                </OverrideMaterialUICss> 
+
 
 
             <section className="webPos">

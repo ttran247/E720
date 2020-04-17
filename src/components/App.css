@@ -39,29 +39,8 @@ a{
   width: 50px;
 
 }
-.navContainterMobile{
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-}
-.navMobile{
-  list-style-type: none;
-  display: flex;
-  flex-direction: column;
-  padding-right: 25px;
 
-}
 
-.icon{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    padding: 20px
-}
-.fa-bars{
-    font-size: 35px;;
-    color:black;
-}
 
 .heroh1{
   padding-top: 50px;
@@ -208,7 +187,9 @@ font-family: 'Nunito Sans', sans-serif;
   padding-bottom: 50px;
   
 }
-
+.MuiMenuIcon{
+  display: none;
+}
 
 @media (min-width: 850px) {
 h1{
@@ -217,10 +198,8 @@ h1{
 h2{
   font-size: 22px;
 }
-.icon{
-  display: none;
-}
-.navMobile {
+
+.overide{
   display: none;
 }
 
@@ -316,7 +295,6 @@ text-align: center;
 }
 
 .ceo{
- 
   width: 300px;
   height: 300px;
   border-radius: 50%;
